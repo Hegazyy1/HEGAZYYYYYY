@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Times New Roman', Times, serif,sans-serif ;
+}
+nav{
+  height: 10vh;
+  font-family: "lalezar",sans-serif ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1366px;
+margin: 0 auto;
+padding: 0 5rem;
+}
+nav .logo{
+display: flex;
+font-size: 2rem;
+align-items: center;
+}
+nav .logo i {
+color: rgb(70, 31, 107);
+padding-left: 0.75;
+}
+nav .nav-items{
+  display: flex;
+  list-style-type: none;
+}
+nav .nav-items .nav-item{
+  padding: 0 1rem;
+}
+nav .nav-link{
+text-decoration: none;
+color: rgb(66, 51, 73);
+font-size: 1.4rem;
+}
+nav .nav-link:hover{
+color: black;
+}
+.hero{
+  background-color: #f8f7fc;
+}
+.hero-section{
+  max-width: 1366px;
+  height: 90vh;
+ margin: 0 auto;
+ padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-section .content{
+  display: flex;
+  flex-direction: column;
+}
+.hero-section h4{
+  color: rgb(165, 91, 0);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.hero-section h1{
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+.hero-section p{
+  font-size: 1.4rem;
+  color: rgb(27, 26, 26);
+}
+.btn{
+
+  width: 10rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(21, 21, 246);
+}
+.btn:hover{
+  background-color: rgb(46, 46, 245);
+  cursor: pointer;
+
+}
+.btn a{
+  text-decoration: none;
+  color: bisque;
+  font-size: 1.4rem;
+
+}
+
+section.features{
+  padding: 2rem 0;
+  background-color: #f8f7fc;
+}
+section.features .features-section{
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.features-section h4{
+  color: blue;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.features-section .qualities{
+  display: flex;
+  justify-content: space-between;
+}
+.features-section .qualities .quality{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  padding: 2rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.features-section .qualities .quality:hover{
+  border: 2px solid #6e0aef;
+}
+.qualities .quality i{
+  font-size: 2rem;
+  color: #6e0aef;
+  margin-bottom: 1rem;
+}
+.qualities .quality h3{
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.qualities .quality p{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #032922;
+}
+.newest-clothes{
+  padding-top: 5rem;
+}
+.newest-clothes .clothes-section{
+  max-width: 1366px;
+  margin: 0 auto;
+  padding:0 5rem ;
+  display: flex;
+  flex-direction: column;
+}
+.clothes-section h4{
+  color: #6e0aef;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.product-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 250px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(47, 31, 31, 0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.4s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-card h2 {
+  font-size: 1.25rem;
+  color: rgb(24, 9, 9);
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.product-card:hover {
+  transform: scale(1.1);
+}
+.newest-clothes .btn{
+  width: 15rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+.product-card .btn-1 i{
+  font-size: 1.2rem;
+
+}
+.product-card .btn-2{
+  font-size: 1.2rem;
+}
+span{
+  font-size: 1.4rem;
+}
+
+
+
