@@ -8,6 +8,8 @@
 body {
   font-family: 'Times New Roman', Times, serif,sans-serif ;
 }
+
+@media (max-width:768;)
 nav{
   height: 10vh;
   font-family: "lalezar",sans-serif ;
